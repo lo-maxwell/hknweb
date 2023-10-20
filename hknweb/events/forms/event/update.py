@@ -13,6 +13,7 @@ class EventUpdateForm(forms.ModelForm):
         model = Event
         fields = [
             "name",
+            "point_of_contact",
             "start_time",
             "end_time",
             "location",
